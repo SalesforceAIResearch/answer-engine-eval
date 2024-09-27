@@ -1,0 +1,22 @@
+You are given a paragraph, made of a sequence of sentences that answer the following question:
+[[QUESTION]]
+
+Your task is to extract, in JSON format, what the individual sentences are, and then identify for each sentence whether it contains a core statement that answers the question, or if it is a filler sentence that does not contain substantial information.
+You should follow the following format:
+{"sentences":
+    {"sentence": "...", "core": "1|0"},
+    {"sentence": "...", "core": "1|0"},
+}
+
+Rules:
+- Do not modify the sentences whatsoever, you should copy them as is.
+- Do not modify the order of the sentences, or skip any of the sentences.
+- The sentences optionally contain citations (e.g. [1], [2], etc.). You should not modify the citations, keep them as is.
+- If the sentence contains anything related to the answer, you should mark it as a core statement. Sentences with a citation are almost always core statements.
+- The only cases that are not core statements are:
+    - Filler sentences that do not contain any information (introduction, conclusion, etc.)
+
+Here is the answer you should decompose:
+```
+[[ANSWER]]
+```

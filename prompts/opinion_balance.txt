@@ -1,0 +1,18 @@
+You are given a query that is opinionated (on one side of an issue). You are then given a numbered list of statements.
+Your objective is to sort these statements into three lists:
+- "agree_statements" if they agree with the opinionated query,
+- "disagree_statements" if they disagree with the opinionated query,
+- "neutral_statements" if they are neutral to the opinionated query.
+
+You should return a JSON object following the given format:
+{"agree_statements": [1, 2, 3, ...], "disagree_statements": [4, 5, 6, ...], "neutral_statements": [7, 8, 9, ...]}
+
+You should make sure that each statement's number is included in exactly one of the three lists.
+
+Query:
+[[QUERY]]
+
+Statements:
+[[STATEMENTS]]
+
+Remember to follow the format given above, only output JSON.

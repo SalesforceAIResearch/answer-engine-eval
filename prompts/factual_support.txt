@@ -1,0 +1,14 @@
+You are given the full text of a document, and a statement (a sentence). Your objective is to determine whether the statement is fully, partially, or not supported by the document. You should output a JSON object with the following format:
+{"support": "full|partial|none"}
+
+Document:
+```
+[[DOCUMENT]]
+```
+
+Statement:
+[[STATEMENT]]
+
+Rules:
+- The statement may contain citations (e.g. [1], [2], etc.). You do not need to consider the citations when determining support.
+- Only output valid JSON. Do not include any other information in the output.
