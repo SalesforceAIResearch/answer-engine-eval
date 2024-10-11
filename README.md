@@ -1,6 +1,6 @@
 # Answer Engine Evaluation Framework
 
-Code release that accompanies the paper pre-print "[Search Engines in an AI Era: The False Promise of Factual and Verifiable Source-Cited Responses]()". Note that data under [data folder](https://github.com/SalesforceAIResearch/answer-engine-eval/blob/main/data/) can be used for research purpose only.
+Code release that accompanies the paper pre-print "[Search Engines in an AI Era: The False Promise of Factual and Verifiable Source-Cited Responses]()". Note that data in this work can be used for research purpose only.
 
 <p align="center">
   <img src="AEE_Intro_Figure.png" style="height: 300px;" /><br />
