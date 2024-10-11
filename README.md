@@ -12,11 +12,6 @@ The code in this repository enables the reproduction of the metrics-based result
   <img src="AEE_Metrics_Figure.png" style="height: 400px;" /><br />
 </p>
 
-## Answer Engine Scraper
-
-To automate experiments and allow us to scale, we implemented a selenium-based scraper for the three answer engines evaluated in our experiments.
-The code can be found in the following file [scrape_answer_engine.py](https://github.com/SalesforceAIResearch/answer-engine-eval/blob/main/scrape_answer_engine.py).
-
 ## Metric Computation
 
 The main function that computes the prerequisites to compute scores is included in [populate_scores.py](https://github.com/SalesforceAIResearch/answer-engine-eval/blob/main/populate_scores.py).
