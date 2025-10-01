@@ -49,6 +49,23 @@ The notebook [Answer_Engine_Eval.ipynb](https://github.com/SalesforceAIResearch/
 
 ## Citation
 
-1. Venkit, Pranav Narayanan, et al. "Search Engines in the AI Era: A Qualitative Understanding to the False Promise of Factual and Verifiable Source-Cited Responses in LLM-based Search." Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency. 2025.
+[Search Engines in the AI Era: A Qualitative Understanding to the False Promise of Factual and Verifiable Source-Cited Responses in LLM-based Search](https://dl.acm.org/doi/abs/10.1145/3715275.3732089)
+```
+@inproceedings{narayanan2025search,
+  title={Search Engines in the AI Era: A Qualitative Understanding to the False Promise of Factual and Verifiable Source-Cited Responses in LLM-based Search},
+  author={Narayanan Venkit, Pranav and Laban, Philippe and Zhou, Yilun and Mao, Yixin and Wu, Chien-Sheng},
+  booktitle={Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency},
+  pages={1325--1340},
+  year={2025}
+}
+```
 
-2. Venkit, Pranav Narayanan, et al. "DeepTRACE: Auditing Deep Research AI Systems for Tracking Reliability Across Citations and Evidence." arXiv preprint arXiv:2509.04499 (2025).
+[DeepTRACE: Auditing Deep Research AI Systems for Tracking Reliability Across Citations and Evidence](https://arxiv.org/abs/2509.04499)
+```
+@article{venkit2025deeptrace,
+  title={DeepTRACE: Auditing Deep Research AI Systems for Tracking Reliability Across Citations and Evidence},
+  author={Venkit, Pranav Narayanan and Laban, Philippe and Zhou, Yilun and Huang, Kung-Hsiang and Mao, Yixin and Wu, Chien-Sheng},
+  journal={arXiv preprint arXiv:2509.04499},
+  year={2025}
+}
+```
